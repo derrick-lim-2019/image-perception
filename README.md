@@ -1,6 +1,8 @@
 # How to run application
 
 ## Important notes:
+- This is Group 3's implementation of the Supermarket Group Project for CS424 Image Perception
+- This implementation involves a hosting server and an application
 - Application was developed using a Linux Distribution (Ubuntu) with a CUDA-enabled GPU, and 
 inference mode is run using a GPU.
 - Mobile Application is built only for Android devices
