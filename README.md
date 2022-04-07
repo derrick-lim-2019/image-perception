@@ -26,6 +26,12 @@ https://drive.google.com/file/d/1u1SyAicePfmBEUYBN2vvhfUrIvKduZRQ/view?usp=shari
 3. Find out the ipaddress of your server and replace the server url in the application
 4. Your mobile application should be ready to be used with the inference server
 
+-- Disclaimer: The post that I referred to with the base code was deleted before I could properly give credit to the author, the base code included the Android Application code to take simple and send it to a Flask server, I used it as a base for my Android application and made several changes to suit the application's needs. These are the following changes made to the base code:
+
+* Sending full-resolution images to the Flask server (The base code scaled down the resolution)
+* Displaying response for the number of Vegetables/Fruits detected
+* Suppression of networking issues that only occurs on a Physical device and not an Android Emulator
+
 ## How to use
 1. Visit the hosted server's URL at ```http://{ip_address}:5000/images``` on your browser to reach a landing page. Ensure that the device's browser is within the same network.  
 
