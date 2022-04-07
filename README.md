@@ -10,7 +10,7 @@ inference mode is run using a GPU.
 
 ## Server setup
 0. Download code file (Cannot fit on github here) from this link
-https://drive.google.com/file/d/14kBKJAuWUc3g1hQlV-DVfATaTOv9ZaLb/view?usp=sharing
+https://drive.google.com/file/d/1VRPh2aSktVbJawrQCoi61-d58lwyCX_s/view?usp=sharing
 2. Download weights to be used with application from this google drive link
 https://drive.google.com/file/d/1rLzAXHdn6lGZ3XKHaW5oMC9atPffmVvj/view?usp=sharing
 2. Open ```app.py``` and change line #14 to the path of the downloaded weights
