@@ -7,7 +7,9 @@ inference mode is run using a GPU.
 - Both the server application & mobile application needs to be run on the same network.
 
 ## Server setup
-1. Download weights to be used with application from this google drive link
+0. Download code file (Cannot fit on github here) from this link
+https://drive.google.com/file/d/14kBKJAuWUc3g1hQlV-DVfATaTOv9ZaLb/view?usp=sharing
+2. Download weights to be used with application from this google drive link
 https://drive.google.com/file/d/1rLzAXHdn6lGZ3XKHaW5oMC9atPffmVvj/view?usp=sharing
 2. Open ```app.py``` and change line #14 to the path of the downloaded weights
 3. Change directory to the root of the downloaded folder and you should see a ```requirements.txt``` file, run the following command in the terminal ```pip install -r requirements.txt``` to install dependencies for the application
@@ -22,6 +24,10 @@ https://drive.google.com/file/d/1u1SyAicePfmBEUYBN2vvhfUrIvKduZRQ/view?usp=shari
 3. Find out the ipaddress of your server and replace the server url in the application
 4. Your mobile application should be ready to be used with the inference server
 
-
+## How to use
+1. Visit the hosted server's URL at ```http://{ip_address}:5000/images``` on your browser to reach a landing page. Ensure that the device's browser is within the same network.
+2. Launch the mobile application and enter the hosted server's URL at ```http://{ip_address}:5000``` as a target
+3. Choose a photo from your gallery / take a new photo and hit "Predict Class". 
+4. Receive response on both your Android device and your browser
 
  
