@@ -3,7 +3,8 @@
 ## Important notes:
 - This is Group 3's implementation of the Supermarket Group Project for CS424 Image Perception
 - This implementation involves a hosting server and an application
-- Application was developed using a Linux Distribution (Ubuntu) with a CUDA-enabled GPU, and 
+- The underlying model is using the YOLOV4 model with darknet (https://github.com/AlexeyAB/darknet)
+- The server was developed using a Linux Distribution (Ubuntu) with a CUDA-enabled GPU, and 
 inference mode is run using a GPU.
 - Mobile Application is built only for Android devices
 - Both the server application & mobile application needs to be run on the same network.
@@ -26,7 +27,7 @@ https://drive.google.com/file/d/1u1SyAicePfmBEUYBN2vvhfUrIvKduZRQ/view?usp=shari
 3. Find out the ipaddress of your server and replace the server url in the application
 4. Your mobile application should be ready to be used with the inference server
 
--- Disclaimer: The post that I referred to with the base code was deleted before I could properly give credit to the author, the base code included the Android Application code to take simple and send it to a Flask server, I used it as a base for my Android application and made several changes to suit the application's needs. These are the following changes made to the base code:
+<b>Disclaimer</b>: The post that I referred to with the base code was blocked before I could properly give credit to the author (https://medium.com/nerd-for-tech/android-image-classification-app-using-keras-model-on-flask-server-eda31a94aa7c), the base code included the Android Application code to take simple and send it to a Flask server, I used it as a base for my Android application and made several changes to suit the application's needs. These are the following changes made to the base code:
 
 * Sending full-resolution images to the Flask server (The base code scaled down the resolution)
 * Displaying response for the number of Vegetables/Fruits detected
