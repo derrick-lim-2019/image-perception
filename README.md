@@ -27,9 +27,22 @@ https://drive.google.com/file/d/1u1SyAicePfmBEUYBN2vvhfUrIvKduZRQ/view?usp=shari
 4. Your mobile application should be ready to be used with the inference server
 
 ## How to use
-1. Visit the hosted server's URL at ```http://{ip_address}:5000/images``` on your browser to reach a landing page. Ensure that the device's browser is within the same network.
-2. Launch the mobile application and enter the hosted server's URL at ```http://{ip_address}:5000``` as a target
-3. Choose a photo from your gallery / take a new photo and hit "Predict Class". 
-4. Receive response on both your Android device and your browser
+1. Visit the hosted server's URL at ```http://{ip_address}:5000/images``` on your browser to reach a landing page. Ensure that the device's browser is within the same network.  
 
+![Browser Page View](https://github.com/derrick-lim-2019/image-perception/blob/59cd145c8b049f9ac201847ee0a11127287166f8/images/Browser%20Landing.JPG)
+
+3. Launch the mobile application and enter the hosted server's URL at ```http://{ip_address}:5000``` as a target  
+
+![Mobile App View](https://github.com/derrick-lim-2019/image-perception/blob/59cd145c8b049f9ac201847ee0a11127287166f8/images/photo_2022-04-07_13-54-19.jpg)
+
+4. Choose a photo from your gallery / take a new photo and hit "Predict Class". 
+
+![Mobile App View 2](https://github.com/derrick-lim-2019/image-perception/blob/59cd145c8b049f9ac201847ee0a11127287166f8/images/photo_2022-04-07_13-54-17.jpg)
+
+
+5. Receive response on both your Android device and your browser  
+
+![Mobile App View 3 ](https://github.com/derrick-lim-2019/image-perception/blob/59cd145c8b049f9ac201847ee0a11127287166f8/images/photo_2022-04-07_13-54-11.jpg)
+
+![Browser View 2](https://github.com/derrick-lim-2019/image-perception/blob/59cd145c8b049f9ac201847ee0a11127287166f8/images/Detection.JPG)
  
